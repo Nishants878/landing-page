@@ -1,0 +1,28 @@
+.MainContainer{
+ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  
+}
+.SideBarContainer{
+    width: 30%;
+}
+.MainContentWrapper{
+    width: 70%;
+}
+.DetailsContainer{
+    margin-top: 10%;
+    padding: 1rem;
+    width: 60vw;
+}
+.PortalCardContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.InfoContainer{
+    margin-top: 2rem;
+}

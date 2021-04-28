@@ -1,0 +1,29 @@
+.MainContainer{
+    width: 100%;
+    height: 112px;
+    
+    background-color: #FBFCFF;
+    
+    
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    
+    box-shadow: 1px 4px 5px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.IconContainer{
+    width: 80px;
+    margin-right: 1rem;
+}
+.IconContainer>img{
+    width: 100%;
+}
+.NameWrapper{
+    color: #FA7267;
+    font-size: 1.2rem;
+}

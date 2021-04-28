@@ -1,0 +1,99 @@
+.MainContainer{
+    width:18%;
+    /* background-color: #382F9C; */
+    background-color: #FBFCFF;
+    padding: 0;
+   height: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.ContactWrapper>img{
+    width: 50px;
+}
+.ContentWrapper{
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 90%;
+}
+.LogoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: 2rem;
+    height: 80px;
+    width: 100%;
+}
+.LogoContainer>img{
+    width: 100%;
+    margin-left: 8rem;
+}
+.NavMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+.NavBar>p{
+   color: #1A1E32;
+  
+}
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  
+}
+.Appoint{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FA7267;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  cursor: pointer;
+    margin-bottom: 1rem;
+}
+.Appoint>p{
+    color: #FAFAFB;
+}
+.NavBar:hover{
+   background-color: #613BFF;
+   border-radius: 10px;
+ 
+}
+.NavBar:hover>p{
+    color: #FAFAFB;
+    
+ }
+ .ContactWrapper{
+     width: 200px;
+     height: 150px;
+     background-color: #EEEBFE;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .ContactWrapper>img{
+     width: 220px;
+     height: 100px;
+ }
+ .ContactWrapper>p{
+     color: #613BFF;
+     font-weight: 600;
+     font-size: 1.1rem;
+ }
